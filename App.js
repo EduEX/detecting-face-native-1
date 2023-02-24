@@ -8,7 +8,6 @@ import {
   useFrameProcessor,
 } from 'react-native-vision-camera';
 
-//import { Camera } from 'react-native-vision-camera';
 import { scanFaces, Face } from 'vision-camera-face-detector';
 
 export default function App() {
@@ -45,3 +44,9 @@ export default function App() {
     />
   ) : null;
 }
+
+const styles = StyleSheet.create({
+  absoluteFill:{
+    flex: 1,
+  }
+})
